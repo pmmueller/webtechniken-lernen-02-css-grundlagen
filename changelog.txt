@@ -1,0 +1,48 @@
+﻿--- 
+2019-01-29 
+Version 1.3 
+    
+in formulare.css 
+Für die Eingabefelder die Vererbung von Schriftgröße und - art eingefügt. Für den Button war's drin, für die Eingabefelder nicht. 
+
+
+--- 
+2018-11-15 
+Version 1.2
+
+@import-Regel für Google Fonts geändert 
+
+Google hat eine etwas andere Syntax, mit https und einfachen Anführungsstrichen: 
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
+
+In den Projektdateien habe ich http:// durch https:// ersetzt. 
+
+Die einfachen Anführungsstriche hingegen habe ich nicht übernommen, denn bei der Pfadangabe mit url() die Schreibweise ohne Anführungsstriche ist erlaubt und m. E. besser lesbar. 
+
+
+---
+2018-11-08 
+Version 1.1    
+
+navi-flex.css geändert 
+- min-width für a auf 70px (war 72px)
+- in Firefox/Mac gab es mit 70px bei 320px Viewport einen Umbruch 
+
+Ordnernamen verkürzt auf Kapitelnummer
+wie in Teil 1: k01, k02 etc. 
+
+Das macht es einfacher, auf videokurse.pmueller.de in der URL zwischen Teil 1 und 2 zu wechseln: 
+- teil1/k08/ende 
+- teil2/k08/ende 
+
+
+--- 
+2018-11-03 
+Version 1.0    
+Kopie vom Aufnahmerechner erstellt
+LinkedIn Graz 
+Booth 14 
+
+
+--- eof --- 
